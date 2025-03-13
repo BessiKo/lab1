@@ -4,13 +4,13 @@
 int  main(){
 using namespace std;
 double a=0, b=0;
-cout << "Vvedite dlinu  ";
+cout << "Введите длину  ";
 cin >> a;
-cout << "Vvedite shirinu  ";
+cout << "Введите ширину  ";
 cin >> b;
 if (a>0 && b>0){
-cout << "perimetr= " << 2*(a+b) << endl;
-cout << "ploshad= " << a*b << endl;
-cout << "dlina diagonali= "<< sqrt(a*a+b*b)<<endl;
+cout << "периметр= " << 2*(a+b) << endl;
+cout << "площадь= " << a*b << endl;
+cout << "длина диагонали= "<< sqrt(a*a+b*b)<<endl;
 }else cout<<"error"<<endl;
 }
